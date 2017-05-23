@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 20px auto;
+  background: darkgrey;
+}
+
+.left_block {
+  width: 15%;
+  height: 80px;
+  background: green;
+  text-align: center;
+}
+
+.left_block span {
+    line-height: 80px;
+
+    font-size: 2em;
+    color: #fff;
+    font-family: arial, serif;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    /*padding-left: 10px;*/
+    /*width: 15%;
+    height: 80px;
+}
+
+.plus button, .minus button{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.minus span, .plus span {
+    line-height: 30px;
+    font-size: 3em;
+    color: #fff;
+
+}
+.count {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: arial, serif;
+}*/*/
+/*.goals {
+    width: 50%;
+    height: 80px;
+    margin: 0 auto;
+    background: lightgrey;
+}
+
+.goals li {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background: red;
+    text-align: center;
+}
+
+.goals li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 50px;
+    height: 2px;
+    background: #000;
+}
+
+.goals li:last-child::after {
+    display: none;
+}
+.goals li:nth-child(-n+3) {
+    background: lightgreen;
+}
+
+.goals li:nth-child(4) {
+    background: purple;
+}*/
+
+/*.goals li:last-child {
+    background: lightgrey;
+
+}
+
+.goals li span {
+    color: #fff;
+    font-size: 1em;
+    font-family: arial, serif;
+    line-height: 40px;
+}
+
+.goals li:last-child span {
+    color: #000;
+}*/
+.nav {
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+ .menu {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    margin: 10px 0 0 40px;
+}
+
+.menu:hover {
+    box-shadow: inset 1px 1px 0 0 lightgrey;
+}
+
+.menu::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #000;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0px;
+}
+
+ul li:hover .submenu {
+    display: block;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+
+.submenu li {
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /*border: 1px solid lightgrey;*/
+}
+
+.submenu li span {
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: arial, serif;
+
+}
+
+.submenu li:hover {
+    background: blue;
+    color: #fff;
+}
